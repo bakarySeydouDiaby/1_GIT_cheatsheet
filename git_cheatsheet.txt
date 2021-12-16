@@ -1,0 +1,57 @@
+Initialisation du repo git
+=========================
+git init
+    This will create a .git repository in your project.
+
+configuration
+=============
+    git config --global user.name "Your Name"
+    git config --global user.email "yourEmail@mail.com
+
+
+show config infos
+================
+    git config --list
+    git config user.name
+
+change username :
+===============
+    git config --global user.name "Alvin J. Alexander"
+
+    or edit : ~/.gitconfig and read or modify
+
+
+change your Git email address :
+============================
+
+    git config --global user.email [your email address here]
+
+add file to what is called a “staging area” or index.
+===================================================================
+    git status => what files have been changed that need to be added to the staging area
+    git add filename    git add .   git add *.html
+
+create a file called .gitignore
+================================
+    touch .gitignore
+     You can open that file with a text editor and write 
+     the name of files or folders you want to be ignored 
+     from your repository. 
+     Ignored files won’t show up when you run git status 
+     to prevent you from committing files you’ve previously 
+     said you don’t want to commit or even know about their changes.
+
+Removes specified file from the staging area.
+===========================================
+    git reset filename.extension
+
+remove the file from the staging area and sets it to be untracked.
+==================================================================
+git rm --cached filename.extension
+
+
+
+
+Takes the files from your staging area and commits them to your local repository.
+====================================================================
+    git commit -m "Description of the commit"
