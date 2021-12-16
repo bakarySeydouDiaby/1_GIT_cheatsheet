@@ -180,3 +180,5 @@ revenir à un état anterieure après un git pull qui affecte les changements lo
 script bash pour commiter avec la commande : nom_script.sh "message"
     voir automate_push.sh
 >>>>>>> Stashed changes
+    pour appliquer la commande : ./automate_push.sh test automate push to master
+
