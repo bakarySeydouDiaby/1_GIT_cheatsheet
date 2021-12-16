@@ -158,3 +158,8 @@ ajout quelques lignes dans 1_GIT_cheatsheet
         git commit -m "ajout partie pushing to branch1"
         git push origin branch1
 
+
+QUELSQUES ASTUCES
+=================
+revenir à un état anterieure après un git pull qui affecte les changements locaux
+    git reset --hard branName@{"10 minutes ago"}
