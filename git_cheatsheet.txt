@@ -174,4 +174,9 @@ revenir à un état anterieure après un git pull qui affecte les changements lo
     git reflog ==> les ids des commits 
     git reset --hard id_log_number ==> revenir à cette etat
 
+<<<<<<< Updated upstream
 
+=======
+script bash pour commiter avec la commande : nom_script.sh "message"
+    voir automate_push.sh
+>>>>>>> Stashed changes
