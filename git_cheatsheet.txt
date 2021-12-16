@@ -141,9 +141,13 @@ another push after modifying or creating deleting and committing
         git add .
         git commit -m "ajout manip puhing to master"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> branch1
         git push
 
 V) pushing to  branch called "branch1"
+======================================
 
 creer branch1 dans github : 
     manuelle
@@ -164,4 +168,10 @@ QUELSQUES ASTUCES
 =================
 revenir à un état anterieure après un git pull qui affecte les changements locaux
     git reset --hard branName@{"10 minutes ago"}
+
+
+    autre methode :
+    git reflog ==> les ids des commits 
+    git reset --hard id_log_number ==> revenir à cette etat
+
 
