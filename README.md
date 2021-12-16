@@ -1,1 +1,1 @@
-# basic starts af git and gitub
+# basic starts of git and github
