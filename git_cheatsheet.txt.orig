@@ -165,3 +165,6 @@ QUELSQUES ASTUCES
 revenir à un état anterieure après un git pull qui affecte les changements locaux
     git reset --hard branName@{"10 minutes ago"}
 
+=======
+        git push
+>>>>>>> 7452df141952733a0dd014032dd289c9741181b6
