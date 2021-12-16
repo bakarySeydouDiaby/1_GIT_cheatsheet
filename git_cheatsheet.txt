@@ -134,5 +134,10 @@ fisrt push
     git push -u origin main
     git push -u origin master
 
-another push after modifying or creating deleting
-    git push
+another push after modifying or creating deleting and committing
+----------------------------------------------------------------
+    Ajout quelsues lignes puis faire 
+        git status
+        git add .
+        git commit -m "ajout manip puhing to master"
+        git push
