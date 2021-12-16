@@ -120,3 +120,7 @@ git pull
     from the remote repository and update your local version
     so you can work with the latest updates as their changes
     enter the codebase. 
+
+REMARQUE :
+Nous avons 2 fichier texte, mais le test_git n'est pas concerné durant
+toute la manip depuis qu'on l'a ajouté dans .gitignore
