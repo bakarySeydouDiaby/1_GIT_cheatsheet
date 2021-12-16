@@ -141,3 +141,11 @@ another push after modifying or creating deleting and committing
         git add .
         git commit -m "ajout manip puhing to master"
         git push
+        
+        
+        
+ QUELSQUES ASTUCES
+=================
+revenir à un état anterieure après un git pull qui affecte les changements locaux
+    git reset --hard branName@{"10 minutes ago"}
+
