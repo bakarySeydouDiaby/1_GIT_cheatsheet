@@ -62,25 +62,33 @@ Takes the files from your staging area and commits them to your local repository
 II) Git branch
 ===============
 Creates what is called a branch
+-------------------------------
     git branch branchName
 
-checkout the branch you created and work within that branch.    
+list branchs
+-------------
+    git branch
+
+checkout the branch you created and work within that branch.  
+--------------------------------------------------------------  
     git checkout branchName
     ==> Now, all the codes from master branch 
         are present in the branchName branch
 
 make a merge from branchName to master branch
-============================================
+----------------------------------------------
     git merge branchName
         While inside Master, this command take the commits 
         from the branch you were working in and merge 
         them together with the main repository.
     Example :
+    --------
     changer du master a l'autre branch : git checkout branch1
     modifier le fichier ou ajouter d'autres fichiers 
     ajouter en stage et commiter : git add et git commit
     revenir en branch master : git checkout master
     Enfin faire un git merge 
+    Verifier  : git status ou git log
 
 III) Partie github
 =================
